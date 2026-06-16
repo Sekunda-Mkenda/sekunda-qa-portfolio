@@ -1,16 +1,83 @@
-# React + Vite
+# Sekunda Mkenda QA Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal QA portfolio built with React and Vite to showcase my Quality Assurance experience, testing skills, real-world QA project exposure, and Playwright automation practice.
 
-Currently, two official plugins are available:
+This portfolio is also used as a practical testing project, where I can demonstrate UI validation, navigation testing, test runner interaction, and future GitHub Actions automation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Focus Areas
 
-## React Compiler
+- Manual Testing
+- API Testing
+- Web Application Testing
+- Mobile Application Testing
+- UI/UX Validation
+- Bug Reporting
+- Regression Testing
+- Workflow Validation
+- Playwright Automation Practice
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tools & Technologies
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
+- CSS
+- Playwright
+- Postman
+- HTTP Toolkit
+- Chrome DevTools
+- GitHub
+- GitHub Actions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Portfolio Sections
+
+- Hero / Professional Summary
+- About Me
+- Skills & Toolset
+- QA Projects / Case Studies
+- QA Lab
+- Experience Timeline
+- Contact Section
+- Test Runner Panel
+
+## QA Lab
+
+The QA Lab section explains how this portfolio is also used as a testing project. The Test Runner panel is designed to connect with GitHub Actions and Playwright test reports.
+
+Planned test coverage includes:
+
+- Homepage content validation
+- Navigation link validation
+- About, Skills, Projects, QA Lab, Experience, and Contact section checks
+- Test Runner panel interaction
+- Button visibility and link validation
+- Responsive layout checks
+
+## Project Status
+
+This portfolio is currently in active development.
+
+Completed:
+
+- Portfolio landing page
+- About section
+- Skills section
+- QA projects section
+- QA Lab section
+- Experience timeline
+- Contact section
+- Test Runner popup
+
+
+
+## Links
+
+- GitHub: [Sekunda-Mkenda](https://github.com/Sekunda-Mkenda)
+- LinkedIn: [Sekunda Mkenda](https://www.linkedin.com/in/sekunda-mkenda-539502302)
+- Email: [sekundamkenda07@gmail.com](mailto:sekundamkenda07@gmail.com)
+
+## Author
+
+**Sekunda Mkenda**  
+Quality Assurance Analyst  
+Dar es Salaam, Tanzania
