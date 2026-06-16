@@ -49,8 +49,8 @@ function App() {
             </div>
 
             <p className="runner-description">
-              Run Playwright tests through GitHub Actions or view my QA portfolio
-              automation practice repository.
+              Run Playwright tests for this portfolio website through GitHub Actions
+or view the latest automation report.
             </p>
 
             <div className="runner-status">
@@ -98,8 +98,9 @@ function App() {
 </div>
 
             <p className="runner-note">
-              Latest Playwright report link will be added after report publishing
-              is configured.
+              <p className="runner-note">
+  The report link will be connected after Playwright report publishing is configured.
+</p>
             </p>
           </div>
         </div>
@@ -406,6 +407,286 @@ function App() {
           </div>
         </div>
       </section>
+            <section className="lab-section" id="lab">
+        <div className="section-heading">
+          <p>QA Lab</p>
+          <h2>This Portfolio is also my Testing Project</h2>
+        </div>
+
+        <div className="lab-grid">
+          <div className="lab-card lab-main">
+            <span className="lab-badge">Live Testing Practice</span>
+            <h3>Playwright Test Runner</h3>
+
+            <p>
+              I use this portfolio as a practical testing environment to demonstrate
+              Playwright automation, UI validation, navigation checks, and test
+              reporting. The goal is to show how I approach quality not only in
+              client systems, but also in my own work.
+            </p>
+
+            <div className="lab-actions">
+              <button
+                className="lab-primary"
+                onClick={() => setIsTestRunnerOpen(true)}
+              >
+                ⚙ Open Test Runner
+              </button>
+
+              <a
+                href="https://github.com/Sekunda-Mkenda/sekunda-qa-portfolio"
+                target="_blank"
+                rel="noreferrer"
+                className="lab-secondary"
+              >
+                View GitHub Repo
+              </a>
+            </div>
+          </div>
+
+          <div className="lab-card">
+            <h3>What the Tests Validate</h3>
+            <ul>
+              <li>Homepage loads successfully</li>
+              <li>Hero section content is visible</li>
+              <li>Navigation links are available</li>
+              <li>About, Skills, and Projects sections render correctly</li>
+              <li>Test Runner panel opens and displays expected actions</li>
+            </ul>
+          </div>
+
+          <div className="lab-card">
+            <h3>Automation Focus</h3>
+            <ul>
+              <li>Playwright locators</li>
+              <li>Visibility assertions</li>
+              <li>User interaction testing</li>
+              <li>Regression checks</li>
+              <li>GitHub Actions execution</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+            <section className="experience-section" id="experience">
+        <div className="section-heading">
+          <p>Experience</p>
+          <h2>My QA journey and hands-on testing experience</h2>
+        </div>
+
+        <div className="timeline">
+          <div className="timeline-item">
+            <div className="timeline-marker"></div>
+
+            <div className="timeline-card">
+              <span className="timeline-date">Aug 2025 - Present</span>
+              <h3>Quality Assurance Analyst</h3>
+              <h4>Software Testing & Product Quality</h4>
+
+              <p>
+                Performing manual, API, web, and mobile application testing across
+                business-critical platforms. My work includes validating workflows,
+                reporting defects, testing integrations, reviewing user journeys,
+                and supporting product teams in delivering stable releases.
+              </p>
+
+              <div className="timeline-tags">
+                <span>Manual Testing</span>
+                <span>API Testing</span>
+                <span>Mobile QA</span>
+                <span>Bug Reporting</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-marker"></div>
+
+            <div className="timeline-card">
+              <span className="timeline-date">2025 - Present</span>
+              <h3>QA Automation Practice</h3>
+              <h4>Playwright, JavaScript & GitHub</h4>
+
+              <p>
+                Building practical automation skills by writing Playwright tests
+                for UI validation, navigation checks, search flows, multilingual
+                behavior, test runner usage, and HTML report review.
+              </p>
+
+              <div className="timeline-tags">
+                <span>Playwright</span>
+                <span>JavaScript</span>
+                <span>GitHub</span>
+                <span>Test Reports</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-marker"></div>
+
+            <div className="timeline-card">
+              <span className="timeline-date">November 2021 - July 2024</span>
+              <h3>B.Sc. Information Systems Management</h3>
+              <h4>Ardhi University</h4>
+
+              <p>
+                Studying information systems, software project management, system
+                analysis, and technology-driven solutions while applying practical
+                QA knowledge in real-world product testing.
+              </p>
+
+              <div className="timeline-tags">
+                <span>Information Systems</span>
+                <span>Project Management</span>
+                <span>Software Quality</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="contact-section" id="contact">
+  <div className="section-heading">
+    <p>Contact</p>
+    <h2>Let’s connect and build reliable digital products</h2>
+  </div>
+
+  <div className="contact-grid">
+    <div className="contact-card contact-main">
+      <span className="contact-badge">Open to Opportunities</span>
+
+      <h3>Available for QA roles and testing projects</h3>
+
+      <p>
+        I am open to remote QA roles, freelance testing projects, and
+        collaborations where I can contribute to product quality through manual
+        testing, API validation, web and mobile testing, bug reporting, and
+        Playwright automation practice.
+      </p>
+
+      <div className="contact-actions">
+        <a
+          href="mailto:sekundamkenda07@gmail.com"
+          className="contact-primary"
+        >
+          Send Email
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/sekunda-mkenda-539502302"
+          target="_blank"
+          rel="noreferrer"
+          className="contact-secondary"
+        >
+          Connect on LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <div className="contact-card">
+      <h3>Contact Details</h3>
+
+      <ul className="contact-list">
+        <li>
+          <span>Email</span>
+          <a href="mailto:sekundamkenda07@gmail.com">
+            sekundamkenda07@gmail.com
+          </a>
+        </li>
+
+        <li>
+          <span>Location</span>
+          <strong>Dar es Salaam, Tanzania</strong>
+        </li>
+
+        <li>
+          <span>Availability</span>
+          <strong>Remote / Freelance QA</strong>
+        </li>
+
+        <li>
+          <span>Focus</span>
+          <strong>Manual QA, API Testing, Web & Mobile Testing</strong>
+        </li>
+      </ul>
+    </div>
+
+    <div className="contact-card">
+      <h3>Social Profiles</h3>
+
+      <div className="social-links">
+        <a
+          href="https://github.com/Sekunda-Mkenda"
+          target="_blank"
+          rel="noreferrer"
+          className="social-link"
+        >
+          <span className="social-icon">GH</span>
+          <div>
+            <strong>GitHub</strong>
+            <small>github.com/Sekunda-Mkenda</small>
+          </div>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/sekunda-mkenda-539502302"
+          target="_blank"
+          rel="noreferrer"
+          className="social-link"
+        >
+          <span className="social-icon">in</span>
+          <div>
+            <strong>LinkedIn</strong>
+            <small>linkedin.com/in/sekunda-mkenda</small>
+          </div>
+        </a>
+
+        <a
+          href="mailto:sekundamkenda07@gmail.com"
+          className="social-link"
+        >
+          <span className="social-icon">@</span>
+          <div>
+            <strong>Email</strong>
+            <small>sekundamkenda07@gmail.com</small>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <footer className="footer">
+  <div className="footer-inner">
+    <p>
+      Built with quality in mind by <span>Sekunda Mkenda</span>
+    </p>
+
+    <div className="footer-socials">
+      <a
+        href="https://github.com/Sekunda-Mkenda"
+        target="_blank"
+        rel="noreferrer"
+      >
+        GitHub
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/sekunda-mkenda-539502302"
+        target="_blank"
+        rel="noreferrer"
+      >
+        LinkedIn
+      </a>
+
+      <a href="mailto:sekundamkenda07@gmail.com">
+        Email
+      </a>
+    </div>
+  </div>
+
+  <p className="footer-copy">
+    © 2026 QA Portfolio. Designed as a personal testing and automation project.
+  </p>
+</footer>
+</section>
     </main>
   )
 }
