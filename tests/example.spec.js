@@ -40,7 +40,17 @@ test('test runner panel opens successfully', async ({ page }) => {
     page.getByRole('heading', { name: 'QA Test Runner', level: 3 })
   ).toBeVisible();
 
-  await expect(page.getByRole('link', { name: 'Run Tests' })).toBeVisible();
-  await expect(page.getByRole('link', { name: 'View Report' })).toBeVisible();
+  await expect(
+    page.getByText('Playwright automation with GitHub Actions', { exact: true })
+  ).toBeVisible();
+
+  await expect(page.getByText('Status', { exact: true })).toBeVisible();
+  await expect(page.getByText('Browser', { exact: true })).toBeVisible();
+  await expect(page.getByText('Workflow', { exact: true })).toBeVisible();
+
+  await expect(page.getByText('Chromium', { exact: true })).toBeVisible();
+
+  await expect(page.getByRole('link', { name: 'View Test Runs' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'View Report Artifact' })).toBeVisible();
   await expect(page.getByRole('link', { name: 'View Repository' })).toBeVisible();
 });

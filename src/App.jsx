@@ -44,27 +44,28 @@ function App() {
               <span className="runner-icon">⚙</span>
               <div>
                 <h3>QA Test Runner</h3>
-                <p>Playwright automation practice</p>
+                <p>Playwright automation with GitHub Actions</p>
               </div>
             </div>
 
-            <p className="runner-description">
-              Run Playwright tests for this portfolio website through GitHub Actions
-or view the latest automation report.
-            </p>
+           <p className="runner-description">
+  This portfolio includes Playwright tests that validate key UI content,
+  navigation links, and the Test Runner panel. The tests run locally and
+  automatically through GitHub Actions on every push to the main branch.
+</p>
 
             <div className="runner-status">
               <div>
                 <span>Status</span>
-                <strong>Ready</strong>
+                <strong>Passing</strong>
               </div>
               <div>
                 <span>Browser</span>
                 <strong>Chromium</strong>
               </div>
               <div>
-                <span>Focus</span>
-                <strong>UI Testing</strong>
+             <span>Workflow</span>
+<strong>GitHub Actions</strong>
               </div>
             </div>
 
@@ -75,7 +76,7 @@ or view the latest automation report.
     rel="noreferrer"
     className="runner-primary"
   >
-    Run Tests
+    View Test Runs
   </a>
 
   <a
@@ -84,7 +85,7 @@ or view the latest automation report.
     rel="noreferrer"
     className="runner-secondary"
   >
-    View Report
+    View Report Artifact
   </a>
 
   <a
@@ -99,7 +100,8 @@ or view the latest automation report.
 
             <p className="runner-note">
               <p className="runner-note">
-  The report link will be connected after Playwright report publishing is configured.
+ Latest status: Playwright tests are passing locally and through GitHub Actions.
+HTML reports are uploaded as workflow artifacts after each run.
 </p>
             </p>
           </div>
