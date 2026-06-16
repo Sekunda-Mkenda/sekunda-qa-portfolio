@@ -54,3 +54,66 @@ test('test runner panel opens successfully', async ({ page }) => {
   await expect(page.getByRole('link', { name: 'View Report Artifact' })).toBeVisible();
   await expect(page.getByRole('link', { name: 'View Repository' })).toBeVisible();
 });
+test('portfolio is usable on mobile viewport', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+
+  await page.goto('/');
+
+  await expect(
+    page.getByRole('heading', { name: "Hi, I’m Sekunda Mkenda", level: 1 })
+  ).toBeVisible();
+
+  await expect(
+    page.getByRole('heading', { name: 'Quality Assurance Analyst', level: 2 })
+  ).toBeVisible();
+
+  await expect(page.getByRole('link', { name: 'View Projects' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Contact Me' })).toBeVisible();
+
+  await expect(
+    page.getByRole('button', { name: '⚙ Test Runner' })
+  ).toBeVisible();
+});
+
+test('portfolio is usable on tablet viewport', async ({ page }) => {
+  await page.setViewportSize({ width: 768, height: 1024 });
+
+  await page.goto('/');
+
+  await expect(
+    page.getByRole('heading', { name: "Hi, I’m Sekunda Mkenda", level: 1 })
+  ).toBeVisible();
+
+  await expect(
+    page.getByRole('heading', { name: 'Quality Assurance Analyst', level: 2 })
+  ).toBeVisible();
+
+  await expect(
+    page.getByRole('heading', { name: 'QA Focus', level: 3 })
+  ).toBeVisible();
+
+  await expect(page.getByRole('link', { name: 'View Projects' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Contact Me' })).toBeVisible();
+});
+
+test('portfolio has no horizontal overflow on mobile viewport', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+
+  await page.goto('/');
+
+  const scrollWidth = await page.evaluate(() => document.documentElement.scrollWidth);
+  const viewportWidth = await page.evaluate(() => window.innerWidth);
+
+  expect(scrollWidth).toBeLessThanOrEqual(viewportWidth);
+});
+
+test('portfolio has no horizontal overflow on tablet viewport', async ({ page }) => {
+  await page.setViewportSize({ width: 768, height: 1024 });
+
+  await page.goto('/');
+
+  const scrollWidth = await page.evaluate(() => document.documentElement.scrollWidth);
+  const viewportWidth = await page.evaluate(() => window.innerWidth);
+
+  expect(scrollWidth).toBeLessThanOrEqual(viewportWidth);
+});
