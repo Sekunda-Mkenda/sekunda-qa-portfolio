@@ -69,39 +69,29 @@ function App() {
               </div>
             </div>
 
-            <div className="runner-actions">
+           <div className="runner-actions">
   <a
-    href="https://github.com/Sekunda-Mkenda/sekunda-qa-portfolio/actions"
+    href="https://github.com/Sekunda-Mkenda/sekunda-qa-portfolio/actions/workflows/playwright.yml"
     target="_blank"
     rel="noreferrer"
     className="runner-primary"
   >
-    View Test Runs
+    Run Tests
   </a>
 
   <a
-    href="https://github.com/Sekunda-Mkenda/sekunda-qa-portfolio/actions"
+    href="https://sekunda-mkenda.github.io/sekunda-qa-portfolio/"
     target="_blank"
     rel="noreferrer"
-    className="runner-secondary"
   >
-    View Report Artifact
-  </a>
-
-  <a
-    href="https://github.com/Sekunda-Mkenda/sekunda-qa-portfolio"
-    target="_blank"
-    rel="noreferrer"
-    className="runner-secondary"
-  >
-    View Repository
+    Show HTML Report
   </a>
 </div>
 
             <p className="runner-note">
-              <p className="runner-note">
- Latest status: Playwright tests are passing locally and through GitHub Actions.
-HTML reports are uploaded as workflow artifacts after each run.
+         <p className="runner-note">
+  Tests are executed through GitHub Actions, and the latest Playwright HTML
+  report is published publicly after each successful run.
 </p>
             </p>
           </div>

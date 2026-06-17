@@ -1616,3 +1616,43 @@ a {
     width: auto;
   }
 }
+.runner-actions {
+  display: grid;
+  gap: 12px;
+}
+
+.runner-actions a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 999px;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-weight: 800;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.runner-actions a:first-child {
+  background: #14b8a6;
+  color: #02111f;
+}
+
+.runner-actions a:last-child {
+  background: transparent;
+  color: #ccfbf1;
+  border: 1px solid rgba(20, 184, 166, 0.75);
+}
+
+.runner-actions a:hover {
+  transform: translateY(-3px);
+}
+
+.runner-actions a:first-child:hover {
+  box-shadow: 0 14px 35px rgba(20, 184, 166, 0.35);
+}
+
+.runner-actions a:last-child:hover {
+  color: #14b8a6;
+  border-color: #14b8a6;
+}

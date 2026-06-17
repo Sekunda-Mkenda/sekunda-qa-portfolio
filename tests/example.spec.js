@@ -50,10 +50,10 @@ test('test runner panel opens successfully', async ({ page }) => {
 
   await expect(page.getByText('Chromium', { exact: true })).toBeVisible();
 
-  await expect(page.getByRole('link', { name: 'View Test Runs' })).toBeVisible();
-  await expect(page.getByRole('link', { name: 'View Report Artifact' })).toBeVisible();
-  await expect(page.getByRole('link', { name: 'View Repository' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Run Tests' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Show HTML Report' })).toBeVisible();
 });
+
 test('portfolio is usable on mobile viewport', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
 
@@ -101,7 +101,9 @@ test('portfolio has no horizontal overflow on mobile viewport', async ({ page })
 
   await page.goto('/');
 
-  const scrollWidth = await page.evaluate(() => document.documentElement.scrollWidth);
+  const scrollWidth = await page.evaluate(
+    () => document.documentElement.scrollWidth
+  );
   const viewportWidth = await page.evaluate(() => window.innerWidth);
 
   expect(scrollWidth).toBeLessThanOrEqual(viewportWidth);
@@ -112,7 +114,9 @@ test('portfolio has no horizontal overflow on tablet viewport', async ({ page })
 
   await page.goto('/');
 
-  const scrollWidth = await page.evaluate(() => document.documentElement.scrollWidth);
+  const scrollWidth = await page.evaluate(
+    () => document.documentElement.scrollWidth
+  );
   const viewportWidth = await page.evaluate(() => window.innerWidth);
 
   expect(scrollWidth).toBeLessThanOrEqual(viewportWidth);
