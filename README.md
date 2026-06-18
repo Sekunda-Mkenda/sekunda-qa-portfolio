@@ -93,10 +93,13 @@ Planned:
 
 ## Links
 
-* GitHub: [Sekunda-Mkenda](https://github.com/Sekunda-Mkenda)
-* LinkedIn: [Sekunda Mkenda](https://www.linkedin.com/in/sekunda-mkenda-539502302)
-* Email: [sekundamkenda07@gmail.com](mailto:sekundamkenda07@gmail.com)
-* Playwright Report: [View Public Report](https://sekunda-mkenda.github.io/sekunda-qa-portfolio/)
+## Links
+
+- Portfolio Website: [sekunda-qa-portfolio.vercel.app](https://sekunda-qa-portfolio.vercel.app)
+- Playwright Report: [View Public Report](https://sekunda-mkenda.github.io/sekunda-qa-portfolio/)
+- GitHub: [Sekunda-Mkenda](https://github.com/Sekunda-Mkenda)
+- LinkedIn: [Sekunda Mkenda](https://www.linkedin.com/in/sekunda-mkenda-539502302)
+- Email: [sekundamkenda07@gmail.com](mailto:sekundamkenda07@gmail.com)
 
 ## Author
 
