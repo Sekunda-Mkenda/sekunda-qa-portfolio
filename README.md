@@ -4,6 +4,12 @@ A personal Quality Assurance portfolio built with React and Vite to showcase my 
 
 This portfolio is also used as a practical testing project, where I demonstrate UI validation, navigation testing, Test Runner interaction, responsive checks, GitHub Actions automation, and public Playwright HTML report publishing.
 
+## Live Links
+
+* Portfolio Website: [sekunda-qa-portfolio.vercel.app](https://sekunda-qa-portfolio.vercel.app)
+* Playwright HTML Report: [View Public Report](https://sekunda-mkenda.github.io/sekunda-qa-portfolio/)
+* GitHub Actions: [Playwright Tests](https://github.com/Sekunda-Mkenda/sekunda-qa-portfolio/actions/workflows/playwright.yml)
+
 ## Playwright Test Report
 
 This portfolio includes automated Playwright tests for homepage validation, navigation checks, Test Runner interaction, mobile usability, tablet usability, and horizontal overflow checks.
@@ -38,6 +44,7 @@ Latest public Playwright HTML report:
 * GitHub
 * GitHub Actions
 * GitHub Pages
+* Vercel
 
 ## Portfolio Sections
 
@@ -83,23 +90,21 @@ Completed:
 * GitHub Actions workflow
 * Responsive Playwright tests
 * Public Playwright HTML report publishing through GitHub Pages
+* Portfolio deployment through Vercel
 
 Planned:
 
-* Final portfolio deployment
 * Additional case study refinements
 * Footer redesign
 * Additional automation scenarios
 
 ## Links
 
-## Links
-
-- Portfolio Website: [sekunda-qa-portfolio.vercel.app](https://sekunda-qa-portfolio.vercel.app)
-- Playwright Report: [View Public Report](https://sekunda-mkenda.github.io/sekunda-qa-portfolio/)
-- GitHub: [Sekunda-Mkenda](https://github.com/Sekunda-Mkenda)
-- LinkedIn: [Sekunda Mkenda](https://www.linkedin.com/in/sekunda-mkenda-539502302)
-- Email: [sekundamkenda07@gmail.com](mailto:sekundamkenda07@gmail.com)
+* Portfolio Website: [sekunda-qa-portfolio.vercel.app](https://sekunda-qa-portfolio.vercel.app)
+* Playwright Report: [View Public Report](https://sekunda-mkenda.github.io/sekunda-qa-portfolio/)
+* GitHub: [Sekunda-Mkenda](https://github.com/Sekunda-Mkenda)
+* LinkedIn: [Sekunda Mkenda](https://www.linkedin.com/in/sekunda-mkenda-539502302)
+* Email: [sekundamkenda07@gmail.com](mailto:sekundamkenda07@gmail.com)
 
 ## Author
 
